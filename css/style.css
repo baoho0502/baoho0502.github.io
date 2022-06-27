@@ -9,7 +9,7 @@ body, html {
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 400;
-	font-size: 36px;
+	font-size: 40px;
 	color: rgba(255,255,255,1);
 }
 h3, h4 {
@@ -23,9 +23,12 @@ h5 {
 	line-height: 20px;
 }
 p.intro {
-	font-size: 16px;
+	font-size: 20px;
 	margin: 12px 0 0;
 	line-height: 24px;
+}
+p {
+	font-size: 16px;
 }
 a {
 	color: #f6f6f6;
@@ -87,7 +90,7 @@ hr {
 }
 #menu a.navbar-brand i.fa {
 	font-size: 18px;
-	color: #3e5fcd;
+	color: #04bda1;
 	vertical-align: top;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -97,14 +100,14 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #3e5fcd;
+	color: #04bda1;
 }
 .on {
 	background-color: #414a52 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #3e5fcd !important;
+	color: #04bda1 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -112,7 +115,7 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #3e5fcd;
-	border-color: #3e5fcd;
+	border-color: #04bda1;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -123,9 +126,9 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: rgba(255,255,255,1);
-	background-color: #3e5fcd;
+	background-color: #04bda1;
 	border: 0;
-	padding: 14px 20px;
+	padding: 14px 36px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 50px;
@@ -133,7 +136,7 @@ hr {
 	transition: all 0.3s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #3e5fcd;
+	color: #04bda1;
 	background-color: rgba(255,255,255,0.9);
 }
 .btn-default {
@@ -141,7 +144,7 @@ hr {
 	color: #54d0dd;
 	background-color: #414a52;
 	border: 0;
-	padding: 14px 20px;
+	padding: 20px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
@@ -156,6 +159,7 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
+    height: 100vh;
 	padding: 0;
 	text-align: center;
 	background: url(../img/intro-bg.jpg) no-repeat center bottom;
@@ -170,7 +174,7 @@ hr {
 }
 .intro h1 {
 	color: rgba(255,255,255,0.9);
-	font-size: 64px;
+	font-size: 72px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -190,7 +194,8 @@ header .intro-text {
 #about {
 	padding: 120px 0;
 	width: 100%;
-	background: url(../img/about_1.jpg) no-repeat center bottom;
+    height: 80vh;
+	background: url(../img/about-1.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -237,11 +242,11 @@ ol.type li a {
 	border: 2px solid rgba(255,255,255,1);
 }
 ol.type li a.active {
-	background: #3e5fcd;
+	background: #04bda1;
 	color: rgba(255,255,255,1);
 }
 ol.type li a:hover {
-	background: #3e5fcd;
+	background: #04bda1;
 	color: rgba(255,255,255,1);
 }
 .isotope-item {
